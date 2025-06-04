@@ -55,3 +55,15 @@ let supersMan = ['super man',  'batman', 'spiderman', 'aquaman'];
 //sort method
 // supersMan.sort();
 // console.log(supersMan);
+
+//task
+
+let fruits = ['apple', 'orange', 'banana'];
+fruits.unshift('cherry', 'pineapple');
+fruits.push('plum', 'grapes');
+console.log(fruits);
+
+fruits.splice(3, 1, 'lemon');
+console.log(fruits);
+fruits.sort();
+console.log(fruits);

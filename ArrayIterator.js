@@ -71,3 +71,22 @@ let supersMan = ['super man',  'batman', 'spiderman', 'aquaman'];
 //     }
 // );
 // console.log(findSuper);
+
+
+//task
+
+const fruits = ['apple', 'orange', 'banana'];
+
+let fruitsCap = fruits.map(
+    function(v, i, a){
+        return v.toUpperCase();
+    }
+);
+console.log(fruitsCap);
+
+let fruits3 = fruits.every(
+    function(value){
+        return value.length > 3;
+    }
+);
+console.log(fruits3);
